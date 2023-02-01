@@ -1,0 +1,36 @@
+@import url("reset.css");
+.p {
+color: blue;
+}
+
+.a {
+   color: brown;
+}
+
+#list {
+   color: aquamarine;
+}
+
+div.text {
+   color: blueviolet;
+}
+
+.text1,
+.lesson1 {
+   color: bisque;
+}
+
+.text2 p {
+   color: aqua;
+}
+
+.lesson2 > p {
+
+   color: blanchedalmond;
+
+}
+
+[class*="_container"] {
+   color: green;
+}
+
