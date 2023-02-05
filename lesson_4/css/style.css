@@ -1,0 +1,99 @@
+@import url("reset.css");
+
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,500,700&display=swap);
+
+@import url(https://fonts.googleapis.com/css?family=Rosario:300,500,700&display=swap);
+
+@import url(https://fonts.googleapis.com/css?family=Sassy+Frass:regular&display=swap);
+
+body {
+   font-family: "Poppins";
+   font-size: 14px;
+   font-weight: 300;
+   color: #6C757D;
+}
+
+@font-face {
+   font-family: "Circular Std";
+   src: url("../fons/CircularStd-Bold.woff2") format('woff2'),
+       url("../fons/CircularStd-Bold.woff") format('woff');
+   font-weight: 700;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "Circular Std";
+   src: url("../fons/CircularStd-Bold.woff2") format('woff2'),
+       url("../fons/CircularStd-Bold.woff") format('woff');
+   font-weight: 500;
+   font-style: normal;
+   font-display: swap;
+}
+
+.text {
+   font-family: "Circular Std" sans-serif;
+   font-size: 14px;
+   color: rgba(55, 168, 51, 0.597);
+   text-align: right;
+   line-height: 1.4;
+}
+
+.ros{
+   font-family: "Rosario";
+   font-weight: 500;
+   color: olive;
+}
+
+.sas {
+   font-family: "Sassy Frass"; 
+   font-weight: 400;
+   color: brown;
+
+}
+
+.a {
+   text-align:center;
+   color: aqua;
+   text-transform: capitalize;
+}
+
+.text2{
+   text-align: justify;
+   color: bisque;
+   text-decoration: none;
+}
+
+.p1{
+   text-decoration: underline;
+   color: rgb(218, 215, 250);
+   word-spacing: 20px;
+}
+
+.h {
+   text-decoration: line-through;
+   color: blue;
+   text-transform: uppercase;
+   white-space: nowrap;
+}
+
+.ul1 {
+   text-decoration: overline;
+   color: greenyellow;
+   text-transform: lowercase;
+   white-space: normal;
+}
+
+.p2 {
+   text-shadow: 2px 2px 5px blueviolet, -2px -2px 2px red;
+   text-indent: 20px;
+   letter-spacing: 10px;
+}
+
+
+
+
+
+
+
+
