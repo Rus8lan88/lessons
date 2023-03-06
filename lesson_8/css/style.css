@@ -1,0 +1,349 @@
+@import url("reset.css");
+
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,500,700&display=swap);
+
+@import url(https://fonts.googleapis.com/css?family=Inter:500,600,700&display=swap);
+
+
+.vence {
+   font-family: "Poppins", sans-serif;
+   background: url(../img/unsplashsn.png) center/ cover no-repeat;
+   background-color: #212B36;
+   font-size: 12px;
+   font-weight: 300;
+   line-height: 1.7; /* 20/12 */
+   color: #E5E5E5;
+   border-radius: 0px 5px 5px 0px;
+}
+
+.vence__container {
+   padding: 330px 0 100px;
+}
+
+.vence__content {
+   max-width: 1270px;
+   margin: 0 auto; 
+   padding: 15px;
+}
+
+.data {
+   margin-bottom: 15px;
+}
+
+.title {
+   max-width: 605px;
+   font-weight: 700;
+   font-size: 25px;
+   line-height: 1.6; /* 40/25 */
+   color: #F8F9FA;
+   margin-bottom: 15px;
+}
+
+.title {
+   background-color: yellowgreen;
+   color: aquamarine;
+   visibility: hidden;
+   opacity: 0;
+   transition: all 0.8s;
+}
+
+.vence__content:hover .title {
+   visibility: visible;
+   opacity: 1;
+}
+
+.text {
+   max-width: 499px;
+}
+
+.components__page {
+   font-family: "Inter", sans-serif;
+   font-size: 16px;
+   font-weight: 700;
+   line-height: 1; 
+   color:#637381;
+   background-color: #E6E6E6;
+}
+
+.components__container {
+   max-width: 1230px;
+   margin: 0 auto 100px;
+   padding: 100px 15px 0 15px;
+}
+
+.components__title {
+   font-weight: 400;
+   font-size: 26px;
+   line-height: 1.08;
+   color: #212B36;
+   margin-bottom: 45px;
+}
+
+.components__title:hover {
+   color: tomato;
+   text-decoration: underline;
+}
+
+.components__list-first {
+   font-size: 0;
+   margin-bottom: 70px;
+}
+
+.list__first li:first-of-type {
+   background-color: darkorange;
+   text-decoration: underline;
+   margin-bottom: 30px;
+}
+
+
+.ellipse {
+   margin-right: 136px;
+   max-width: 33.3333%;
+}
+
+.ellipse :last-of-type{
+   color: hotpink;
+   text-shadow: #212B36 10px 8px;
+}
+
+ul {
+   display: inline-block;
+   max-width: 100%;
+   margin: 0 auto;
+   vertical-align: top;
+   font-size: 16px;
+}
+
+.ellipse li {
+   background: url(../img/ellipse-01.png) 0 3px / 8px no-repeat;
+   min-height: 8px;
+   padding-left: 18px;
+   margin-bottom: 18px;
+}
+
+.checkmark, .cross, .arrow {
+   margin-right: 91px;
+   max-width: 33.3333%;
+}
+
+.checkmark li {
+   background: url(../img/checkmark-circle-03.png) 0 0 / 20px no-repeat;
+   min-height: 20px;
+   padding: 3px 0 0 30px;
+   margin-bottom: 18px;
+}
+
+.checkmark__green, .star {
+   max-width: 33.3333%;
+}
+
+.checkmark__green li {
+   background: url(../img/checkmark-circle-02.png) 0 0 / 20px no-repeat;
+   min-height: 20px;
+   padding: 3px 0 0 30px;
+   margin-bottom: 18px;
+}
+
+.list__second {
+   font-size: 0;
+}
+
+.list__second li:first-child {
+   text-decoration: overline;
+   color: green;
+   padding: 20px;
+}
+
+.checkmark, .cross, .arrow {
+   margin-right: 91px;
+   max-width: 33.3333%;
+}
+
+.cross li {
+   background: url(../img/cross-circle-04.png) 0 0 / 20px no-repeat;
+   min-height: 20px;
+   padding: 3px 0 0 30px;
+   margin-bottom: 18px;
+}
+
+.arrow li {
+   background: url(../img/arrow-right-05.png) 0 0 / 20px no-repeat;
+   min-height: 20px;
+   padding: 3px 0 0 30px;
+   margin-bottom: 18px;
+}
+
+.arrow :nth-child(odd) {
+   color: #212B36;
+}
+
+.arrow :nth-child(even) {
+   font-style: oblique;
+   background-color: aqua;
+}
+
+.star li {
+   background: url(../img/star-06.png) 0 0 / 20px no-repeat;
+   min-height: 20px;
+   padding: 0 0 0 30px;
+   margin-bottom: 18px;
+}
+
+.star :nth-child(3){
+   color:blue;
+   font-style: italic;
+}
+
+.star :last-child {
+   color: crimson;
+   text-decoration-line: line-through;
+   font-size: 20px;
+}
+
+.speaker {
+   background: url(../img/speaker-1.png),
+   linear-gradient(115deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 62%, 
+  rgba(48,86,211,0.08) 62%), linear-gradient(115deg, rgba(0,0,0,0) 0%,
+  rgba(0,0,0,0) 68%, rgba(48,86,211,0.08) 68%) #f4f7ff;
+  background-repeat: no-repeat;
+  background-position: 75% 50%;
+  padding: 145px 0;
+}
+
+.speaker__container {
+   max-width: 1230px;
+   margin: 0 auto;
+   padding: 0 15px;
+}
+
+.speaker__content {
+   max-width: 570px;
+}
+
+.price {
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 1.33;
+   color: #3056D3;
+   margin-bottom: 13px;
+}
+
+.title__2 {
+   max-width: 470px;
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 1.25;
+   color: #212B36;
+   margin-bottom: 15px;
+}
+
+.text__text {
+   max-width: 570px;
+   line-height: 1.5;
+   margin-bottom: 35px;
+}
+
+.button {
+   display: inline-block;
+   background-color: #3056D3;
+   border-radius: 30px;
+   line-height: 1.5;
+   padding: 10px 30px;
+   color: #FFFFFF;
+   transition: all 0.5s;
+}
+
+.button:hover {
+   color: lawngreen;
+   background-color: brown;
+   border-radius: 15px;
+}
+
+.link_shop {
+   padding: 50px;
+   text-align: center;
+}
+
+.link {
+   display: inline-block;
+   text-decoration: underline;
+   padding: 10px 30px;
+   margin-left: 50px;
+   border-radius: 30px;
+}
+
+.link:focus {
+   outline: 3px solid green;
+}
+
+.list {
+   max-width: 1230px;
+   margin: 0 auto 100px;
+   padding: 100px 15px 0 15px;
+}
+
+.list-1,
+.list-2,
+.list-3 {
+	max-width: 500px;
+	margin-bottom: 50px;
+}
+
+.list-1 li,
+.list-2 li,
+.list-3 li {
+	margin-left: 50px;
+	margin-bottom: 16px;
+}
+
+.list-1 li::before {
+	content: "";
+	display: inline-block;
+	background: url(../img/checkmark-circle-02.png) 0 0 no-repeat;
+	width: 20px;
+	height: 20px;
+	margin-right: 16px;
+	margin-left: -36px;
+	vertical-align: middle;
+}
+
+.list-1 li:hover::before {
+	transform: rotate(-360deg) scale(1.5);
+	transition: all 0.8s;
+}
+
+.list-2 li::before{
+	content: "";
+	display: inline-block;
+	background: url(../img/arrow-right-05.png) 0 0 no-repeat;
+	width: 20px;
+	height: 20px;
+	margin-right: 16px;
+	margin-left: -36px;
+	vertical-align: middle;
+}
+
+.list-2 li:hover::before {
+	transform: rotate(360deg) scale(1.0);
+	transition: all 0.8s;
+}
+
+.list-3 li::before {
+	content: "";
+	display: inline-block;
+	background: url(../img/star-06.png) 0 0 no-repeat;
+	width: 20px;
+	height: 20px;
+	margin-right: 16px;
+	margin-left: -36px;
+	vertical-align: middle;
+	transition: all 0.5s;
+}
+
+.list-3 li:hover::before {
+	transform: rotate(290deg) scale(1.2);
+}
+
+
+
+
